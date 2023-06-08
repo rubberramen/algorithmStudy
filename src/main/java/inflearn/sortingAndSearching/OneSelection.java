@@ -3,10 +3,10 @@ package inflearn.sortingAndSearching;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class One {
+public class OneSelection {
 
     public static void main(String[] args) {
-        One o = new One();
+        OneSelection o = new OneSelection();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int[] arr = new int[n];

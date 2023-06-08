@@ -2,10 +2,10 @@ package inflearn.string;
 
 import java.util.Scanner;
 
-public class Two {
+public class String2 {
 
     public static void main(String[] args) {
-        Two T = new Two();
+        String2 T = new String2();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         System.out.println(T.solution(str));
