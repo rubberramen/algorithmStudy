@@ -10,8 +10,14 @@ public class Prac01 {
     }
 
     public double solution(int[] arr) {
-        double answer = 0;
 
-        return answer;
+        int sum = 0;
+        for (int i : arr) {
+            sum += i;
+        }
+
+        double avg = sum / (double) arr.length;
+
+        return avg;
     }
 }

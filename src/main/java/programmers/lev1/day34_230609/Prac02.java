@@ -7,14 +7,18 @@ import java.util.Arrays;
 public class Prac02 {
     public static void main(String[] args) {
         Prac02 prac01 = new Prac02();
-        long[] answer = prac01.solution(2, 5);
+        long[] answer = prac01.solution(2, 5);  // [2,4,6,8,10]
         System.out.println(Arrays.toString(answer));
     }
 
     public long[] solution(int x, int n) {
-        long[] answer = {};
+        long[] answer = new long[n];
 
-
+        long tmp = 0;
+        for (int i = 0; i < n; i++) {
+            tmp += x;
+            answer[i] = tmp;
+        }
 
         return answer;
     }
