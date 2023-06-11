@@ -1,4 +1,4 @@
-package inflearn.sec07.q7DFS;
+package inflearn.sec07.q6DFS;
 
 class Node {
 

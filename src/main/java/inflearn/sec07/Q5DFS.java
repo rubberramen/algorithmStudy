@@ -1,6 +1,6 @@
 package inflearn.sec07;
 
-public class Q6DFS {
+public class Q5DFS {
     static int n;
     static int[] ch;
 
@@ -21,7 +21,7 @@ public class Q6DFS {
     }
 
     public static void main(String[] args) {
-        Q6DFS T = new Q6DFS();
+        Q5DFS T = new Q5DFS();
         n = 3;
         ch = new int[n + 1];
         T.DFS(1);
