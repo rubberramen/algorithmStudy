@@ -1,0 +1,251 @@
+[33mcommit 09eca74827cbe3c50f1f450268c8000e4cd94ff5[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Mon Jun 12 11:30:00 2023 +0900
+
+    Solve Programmers day37 + Prac03
+
+[33mcommit 6edf97c4cf572603dc751d4ea4c0047aa7430d9a[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Mon Jun 12 11:14:44 2023 +0900
+
+    Programmers day37_230612
+
+[33mcommit 8f2bd969897cceae274014a98285d09cb0aa5c70[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Sun Jun 11 20:06:00 2023 +0900
+
+    Inflearn Algo : 7-1~7-3
+
+[33mcommit 6c7cd3c6cc92446c4ddde8ae8e7c266f1e506211[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Sun Jun 11 16:45:48 2023 +0900
+
+    Algorithm Book ch05
+
+[33mcommit ba91907e76526f5cdfd61bf1c4c9957a1602ea18[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Sun Jun 11 15:58:35 2023 +0900
+
+    Programmers day36_230611
+
+[33mcommit d8aba065320cdb314037522cb724c04611588da9[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Sat Jun 10 22:45:50 2023 +0900
+
+    Inflearn sec7-05
+
+[33mcommit b40d00af829eaaa21621d7608b8e68cb897380e1[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Sat Jun 10 20:25:17 2023 +0900
+
+    Programmers day35_230610
+
+[33mcommit 18544e03b20084865a13cc297ac1902686692eb5[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Sat Jun 10 19:41:25 2023 +0900
+
+    Algorithm Book ch04 : Stack & Que
+
+[33mcommit 5bf9e7c3729cbe8220c34986bcd9413d80d0c3ab[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Fri Jun 9 21:58:25 2023 +0900
+
+    Algorithm Book ~ch03
+
+[33mcommit fa97949c06ebe95df9add23394129a6c4c1a2ffb[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Fri Jun 9 17:36:21 2023 +0900
+
+    + Prac03 day34_230609
+
+[33mcommit 22a5a72c9c6f2d20729b3250685c9e63d93092d3[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Fri Jun 9 14:27:27 2023 +0900
+
+    Programmers day34_230609
+
+[33mcommit f7931a5b2393b3679e7d5e5f82d804ef4d56423f[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Fri Jun 9 09:02:49 2023 +0900
+
+    Sort Algorithm Study
+
+[33mcommit ed29db8cecaf2c7bcb253df0450b6c81fd2fb3e0[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Fri Jun 9 07:15:56 2023 +0900
+
+    Inflearn String-4
+
+[33mcommit 7d54775eb892ec27ed142f8d3835562f3d2ffce2[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Thu Jun 8 18:47:06 2023 +0900
+
+    Algorithm Book ~ch02
+
+[33mcommit c526360b7ebbc75c0f37fc2e85fd270b5008ab5e[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Thu Jun 8 16:42:59 2023 +0900
+
+    Solve day33_230608 & Setting tomorrow
+
+[33mcommit d3374e4601cbfaa8d6d64e9b0ac18d71f8fd30aa[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Thu Jun 8 08:58:25 2023 +0900
+
+    Setting Programmers day33_230608
+
+[33mcommit 63084b0949a2f72fd6f9dc2fb64c0819ede377f7[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Thu Jun 8 08:53:45 2023 +0900
+
+    Setting BookAlgorithm & ~ Max3Method
+
+[33mcommit 6dd09df48abba906607ab4b96b9b3a6e8d584918[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Wed Jun 7 18:09:03 2023 +0900
+
+    Solve day32_230607
+
+[33mcommit 89bef7c583cb78bdbec24e75abc3d9368a3368de[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Wed Jun 7 06:55:18 2023 +0900
+
+    Inflearn : Bubble, Insertion Sort
+
+[33mcommit daaa3c578c52007c758b2eca7715907825cedc90[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Tue Jun 6 21:42:26 2023 +0900
+
+    Selection Sort
+
+[33mcommit a5f8135992b9bab440d00d244c8ebb45b7f03ec8[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Tue Jun 6 20:34:53 2023 +0900
+
+    BaekJoon Setting
+
+[33mcommit 3d9d1dd09542a596b287bbe43445cf9024888815[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Tue Jun 6 20:11:20 2023 +0900
+
+    Setting Inflearn Algo Study & Solve ~3
+
+[33mcommit 73ab85e91a3d2737336ef42f6c78fc243e2ef1f1[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Tue Jun 6 09:34:49 2023 +0900
+
+    Solve day31_230606 & Setting Tomorrow
+
+[33mcommit fb329352d7c2294fd320ff9d3e7e1e761d100939[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Mon Jun 5 16:17:52 2023 +0900
+
+    Setting Tomorrow
+
+[33mcommit 5ead4ad9a7a1f1e0c21c94358bbfc3fb0c81ec54[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Mon Jun 5 16:13:50 2023 +0900
+
+    Solve day30 Prac04 and Setting Again
+
+[33mcommit 70bbf3dbcc07f90cb243bb5e77940b65895b22a9[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Mon Jun 5 08:59:23 2023 +0900
+
+    Solve day30_230605 Prac03
+
+[33mcommit c635690eb16465bf4e0d792ed6cd79853ba92662[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Mon Jun 5 07:22:31 2023 +0900
+
+    Setting again day30, day31
+
+[33mcommit b217a33b309a8d2109ded63aeb88f0a160012085[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Mon Jun 5 07:10:17 2023 +0900
+
+    Solve day31_230606 & Setting Tomorrow
+
+[33mcommit fb31aadce7782ecaca02706d6a06aa2c2b524d24[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Sun Jun 4 18:48:05 2023 +0900
+
+    Solve day29_230604 & Setting tomorrow
+
+[33mcommit cb605b8e1df83fcfeec03980a5b7240dc52b47ed[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Sat Jun 3 20:41:12 2023 +0900
+
+    Do day28_230603 & tomorrow setting
+
+[33mcommit f0ece53c031b3a2419eedea933f9be073a3d9915[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Fri Jun 2 17:17:46 2023 +0900
+
+    day28 setting
+
+[33mcommit 0dd605d298c1fe0df93c2df0801b511c2ecfb67f[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Fri Jun 2 17:14:54 2023 +0900
+
+    day27_230602
+
+[33mcommit 275bbf19ea51952c94fccd4b9e398648e2ec4213[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Fri Jun 2 07:24:03 2023 +0900
+
+    day27_230602 : ongoing Prac02
+
+[33mcommit b3d93f656626b025b728d1b0937d0f83c844af2a[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Thu Jun 1 06:24:44 2023 +0900
+
+    day26_230601 & tommorow setting
+
+[33mcommit 4f3970868b09467074babdfafeaa8f9a9d58d74f[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Wed May 31 20:32:59 2023 +0900
+
+    day25_230531
+
+[33mcommit 3dfcb52f97c70cf702b68b5e2f9550cd3aacf588[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Wed May 31 07:28:59 2023 +0900
+
+    day25 setting
+
+[33mcommit b0951c2b63c41552b0b607ed46f27c999f72662f[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Tue May 30 07:14:32 2023 +0900
+
+    day24_230530
+
+[33mcommit 26e9b6afa75540ecf974ad346a71fd3346f57c40[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Mon May 29 19:22:42 2023 +0900
+
+    day23
+
+[33mcommit ef37d79b31dcda111146d49f13465edb718f52bc[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Sun May 28 23:16:53 2023 +0900
+
+    setting code up basic 100
+
+[33mcommit 20f3bc8d4f8ea77b0f35e5c94671abf16857c34f[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Sun May 28 08:32:34 2023 +0900
+
+    day22
+
+[33mcommit 0b1423eb065a9f96549e6ce125efc14e8855b6d2[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Sat May 27 19:58:44 2023 +0900
+
+    day21
+
+[33mcommit 31556586d8b6ae234a75ca2e32f25fb93561bc11[m
+Author: Chanhyun Wang <rubberramen@naver.com>
+Date:   Sat May 27 18:11:09 2023 +0900
+
+    setting + data migration
