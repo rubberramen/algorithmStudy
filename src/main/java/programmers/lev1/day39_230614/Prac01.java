@@ -12,7 +12,13 @@ public class Prac01 {
     }
 
     public int solution(int[] numbers) {
-        int answer = -1;
-        return answer;
+
+        int tmp = 45;
+        int sum = 0;
+        for (int number : numbers) {
+            sum += number;
+        }
+
+        return tmp - sum;
     }
 }
