@@ -1,7 +1,7 @@
 package programmers.lev1.day40_230615;
 
 
-/* 없는 숫자 더하기 : https://school.programmers.co.kr/learn/courses/30/lessons/86051 */
+/* 가운데 글자 가져오기 : https://school.programmers.co.kr/learn/courses/30/lessons/12903 */
 public class Prac01 {
     public static void main(String[] args) {
         Prac01 prac01 = new Prac01();
