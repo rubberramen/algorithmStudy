@@ -1,16 +1,16 @@
 package programmers.lev1.day49_230624;
 
 
-/* 2016년 : https://school.programmers.co.kr/learn/courses/30/lessons/12901 */
+/* 폰켓몬: https://school.programmers.co.kr/learn/courses/30/lessons/1845 */
 public class Prac01 {
     public static void main(String[] args) {
         Prac01 prac01 = new Prac01();
-        String answer = prac01.solution(5, 24);   // 3
+        int answer = prac01.solution(new int[]{3, 1, 2, 3});   // 2
         System.out.println("answer = " + answer);
     }
 
-    public String solution(int a, int b) {
-        String answer = "";
+    public int solution(int[] nums) {
+        int answer = 0;
 
         return answer;
     }
