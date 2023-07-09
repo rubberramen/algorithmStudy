@@ -4,10 +4,10 @@ package inflearn.daily.sec1String.day64_230709;
 
 import java.util.Scanner;
 
-public class Prac1 {
+public class Prac3 {
 
     public static void main(String[] args) {
-        Prac1 prac1 = new Prac1();
+        Prac3 prac1 = new Prac3();
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         System.out.println(prac1.solution(str));
