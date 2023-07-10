@@ -7,11 +7,37 @@ import java.util.Arrays;
 public class Test {
     public static void main(String[] args) {
         Test prac01 = new Test();
-        int[] answer = prac01.solution(new int[]{1, 2, 3, 4, 5});   // [2, 3]
+        int[] num_list = {1, 3, 5, 7};
+        int[] answer = prac01.solution(num_list);   // [2, 3]
         System.out.println("answer = " + Arrays.toString(answer));
     }
 
     public int[] solution(int[] num_list) {
+        int[] answer = new int[2];
+
+        int even = 0;
+        int odd = 0;
+
+        for (int i = 0; i <= num_list.length - 1; i++) {
+            int a = num_list[i];
+            if (a % 2 == 0) {
+                // 짝수
+//                even = even + 1;
+//                even += 1;
+                even++;
+            } else {
+                // 홀수
+                odd = odd + 1;
+            }
+        }
+
+        answer[0] = even;
+        answer[1] = odd;
+
+        return answer;
+    }
+
+    public int[] solution1(int[] num_list) {
         int[] answer = new int[2];
         int evenNum = 0;
         int oddNum = 0;
