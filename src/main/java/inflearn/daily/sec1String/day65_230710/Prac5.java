@@ -1,8 +1,7 @@
 package inflearn.daily.sec1String.day65_230710;
 
-/* 특정 문자 뒤집기 : https://cote.inflearn.com/contest/10/problem/01-05 */
+/* 5. 특정 문자 뒤집기 : https://cote.inflearn.com/contest/10/problem/01-05 */
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Prac5 {
@@ -15,7 +14,28 @@ public class Prac5 {
     }
 
     public String solution(String str) {
-        String answer = "";
+
+        char[] charArray = str.toCharArray();
+        int left = 0;
+        int right = charArray.length - 1;
+
+        while (left < right) {
+
+            while (!Character.isAlphabetic(charArray[left])) {
+                left++;
+            }
+
+            while (!Character.isAlphabetic(charArray[right])) {
+                right--;
+            }
+
+            char tmp = charArray[left];
+            charArray[left] = charArray[right];
+            charArray[right] = tmp;
+            left++;
+            right--;
+        }
+        String answer = String.valueOf(charArray);
 
         return answer;
     }
