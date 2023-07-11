@@ -1,6 +1,6 @@
 package inflearn.daily.sec2Array.day67_230712;
 
-/* 12. 암호 : https://cote.inflearn.com/contest/10/problem/01-12 */
+/* 1. 큰 수 출력하기 : https://cote.inflearn.com/contest/10/problem/02-01 */
 
 import java.util.ArrayList;
 import java.util.Scanner;
