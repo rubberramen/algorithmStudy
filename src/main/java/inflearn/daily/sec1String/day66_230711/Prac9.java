@@ -18,4 +18,17 @@ public class Prac9 {
         str = str.toUpperCase().replaceAll("[A-Z]", "");
         return Integer.parseInt(str);
     }
+
+    public int solution1(String s){
+//        int answer=0;
+        String answer="";
+        for(char x : s.toCharArray()){
+//            if(x>=48 && x<=57) answer=answer*10+(x-48);
+			/*if(Character.isDigit(x)){
+				answer=answer*10+ Character.getNumericValue(x);
+			}*/
+            if(Character.isDigit(x)) answer+=x;
+        }
+        return Integer.parseInt(answer);
+    }
 }

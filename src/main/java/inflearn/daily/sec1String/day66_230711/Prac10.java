@@ -21,6 +21,7 @@ public class Prac10 {
         int[] answer = new int[str.length()];
         int p = 1000;
 
+        // 왼쪽에서부터의 겨리.
         for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) == t) {
                 p = 0;
