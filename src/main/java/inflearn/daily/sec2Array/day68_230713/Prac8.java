@@ -1,4 +1,4 @@
-package inflearn.daily.sec2Array.day69_230714;
+package inflearn.daily.sec2Array.day68_230713;
 
 /* 8. 등수구하기 : https://cote.inflearn.com/contest/10/problem/02-08 */
 
@@ -22,6 +22,16 @@ public class Prac8 {
 
     public int[] solution(int n, int[] arr) {
         int[] answer = new int[n];
+
+        for (int i = 0; i < arr.length; i++) {
+            int count = 1;
+            for (int j = 0; j < arr.length; j++) {
+                if (arr[j] > arr[i]) {
+                    count++;
+                }
+                answer[i] = count;
+            }
+        }
 
         return answer;
     }
