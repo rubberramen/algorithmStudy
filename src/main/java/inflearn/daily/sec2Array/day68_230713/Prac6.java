@@ -15,6 +15,9 @@ public class Prac6 {
         for (int i = 0; i < n; i++) {
             arr[i] = kb.nextInt();
         }
+
+//        int n = 9;
+//        int[] arr = {32, 55, 62, 20, 250, 370, 200, 30, 100};
         for (int x : prac1.solution(n, arr)) {
             System.out.print(x + " ");
         }
@@ -22,6 +25,33 @@ public class Prac6 {
 
     public ArrayList<Integer> solution(int n, int[] arr) {
 
-        return null;
+        ArrayList<Integer> answer = new ArrayList<>();
+
+        for (int i : arr) {
+//            String str = String.valueOf(i);
+//            String string = new StringBuilder(String.valueOf(i)).reverse().toString();
+            Integer integer = Integer.valueOf(new StringBuilder(String.valueOf(i)).reverse().toString());
+
+            if (isPrime(integer)) {
+                answer.add(integer);
+            }
+        }
+        return answer;
+    }
+
+    public boolean isPrime(int n) {
+
+        if (n == 1) {
+            return false;
+        }
+
+        boolean answer = true;
+        for (int i = 2; i <= n / 2; i++) {
+            if (n % i == 0) {
+                answer = false;
+                break;
+            }
+        }
+        return answer;
     }
 }
