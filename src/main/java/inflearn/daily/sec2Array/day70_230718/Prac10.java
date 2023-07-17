@@ -1,8 +1,6 @@
-package inflearn.daily.sec2Array.day69_230717;
+package inflearn.daily.sec2Array.day70_230718;
 
 /* 9. 격자판 최대합 : https://cote.inflearn.com/contest/10/problem/02-09 */
-
-import java.util.Scanner;
 
 public class Prac10 {
 
