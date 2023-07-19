@@ -2,6 +2,11 @@ package inflearn.daily.sec3TwoPointers_SlidingWindow.day71_230719;
 
 /* 1. 두 배열 합치기: https://cote.inflearn.com/contest/10/problem/03-01 */
 
+/*
+* Two Pointer Algorithm : 효율적으로!
+* 시간 복잡도 O(n)
+* */
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;

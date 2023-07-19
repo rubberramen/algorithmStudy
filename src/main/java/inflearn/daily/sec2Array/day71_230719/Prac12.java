@@ -34,18 +34,18 @@ public class Prac12 {
 
     public int solution(int n, int m, int[][] arr) {
         int answer = 0;
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= n; j++) {
+        for (int i = 1; i <= n; i++) {               // 학생 번호 : 멘토
+            for (int j = 1; j <= n; j++) {           // 학생 번호 : 멘티
                 int cnt = 0;
-                for (int k = 0; k < m; k++) {
+                for (int k = 0; k < m; k++) {        // 테스트 검정
                     int pi = 0, pj = 0;
-                    for (int s = 0; s < n; s++) {
-                        if (arr[k][s] == i) pi = s;
+                    for (int s = 0; s < n; s++) {    // 0등 ~ 3등
+                        if (arr[k][s] == i) pi = s;  // 등수
                         if (arr[k][s] == j) pj = s;
                     }
                     if (pi < pj) cnt++;
                 }
-                if (cnt == m) {
+                if (cnt == m) {    // 테스트 갯수
                     answer++;
                     //System.out.println(i+" "+j);
                 }
