@@ -1,6 +1,6 @@
 package inflearn.daily.sec3TwoPointers_SlidingWindow.day72_230720;
 
-/* 2. 공통원소 구하기 : https://cote.inflearn.com/contest/10/problem/03-02 */
+/* 3. 최대 매출 : https://cote.inflearn.com/contest/10/problem/03-03 */
 
 import java.util.*;
 
@@ -9,79 +9,57 @@ public class Prac3 {
     public static void main(String[] args) {
         Prac3 T = new Prac3();
         Scanner kb = new Scanner(System.in);
+
         int n = kb.nextInt();
-        int[] a = new int[n];
+        int k = kb.nextInt();
+        int[] arr = new int[n];
+
         for (int i = 0; i < n; i++) {
-            a[i] = kb.nextInt();
-        }
-        int m = kb.nextInt();
-        int[] b = new int[m];
-        for (int i = 0; i < m; i++) {
-            b[i] = kb.nextInt();
+            arr[i] = kb.nextInt();
         }
 
-//        int n = 5;
-//        int[] a = {1, 3, 9, 5, 2};
-//        int m = 5;
-//        int[] b = {3, 2, 5, 7, 8};
-        for (int x : T.solution(n, m, a, b)) System.out.print(x + " ");
+//        int n = 10;
+//        int k = 3;
+//        int[] arr = {12, 15, 11, 20, 25, 10, 20, 19, 13, 15};
+
+//        int n = 6;
+//        int k = 2;
+//        int[] arr = {17, 15, 19, 21, 18, 16};
+
+        System.out.print(T.solution(n, k, arr));
     }
 
-    public ArrayList<Integer> solution(int n, int m, int[] a, int[] b) {
+    public int solution(int n, int k, int[] arr) {
+        int answer = 0;
+        int sum = 0;
 
-        ArrayList<Integer> answer = new ArrayList<>();
-        Arrays.sort(a);
-        Arrays.sort(b);
-
-        int p1 = 0;
-        int p2 = 0;
-
-        while (p1 < n && p2 < m) {
-            if (a[p1] == b[p2]) {
-                answer.add(a[p1++]);
-                p2++;
-            } else if (a[p1] < b[p2]) p1++;
-            else p2++;
+        for (int i = 0; i < k; i++) {
+            sum += arr[i];
         }
-        return answer;
-    }
+        answer = sum;
 
-    // Time Limit Exceeded2
-    public ArrayList<Integer> solution_fail2(int n, int m, int[] a, int[] b) {
-        HashSet<Integer> set = new HashSet<>();
-
-        for (int i1 : a) {
-            for (int i2 : b) {
-                if (i1 == i2) {
-                    set.add(i1);
-                }
-            }
+        for (int i = k; i < n; i++) {
+            sum += (arr[i] - arr[i - k]);
+            answer = Math.max(answer, sum);
         }
-
-        ArrayList<Integer> answer = new ArrayList<>(set);
-        Collections.sort(answer);
 
         return answer;
     }
 
     // Time Limit Exceeded
-    public ArrayList<Integer> solution_fail(int n, int m, int[] a, int[] b) {
-        ArrayList<Integer> answer = new ArrayList<>();
-        HashSet<Integer> set = new HashSet<>();
+    public int solution_fail(int n, int k, int[] arr) {
+        int answer = 0;
 
-        for (int i1 : a) {
-            for (int i2 : b) {
-                if (i1 == i2) {
-                    set.add(i1);
-                }
+        for (int i = 0; i < n - (k - 1); i++) {
+            int sum = 0;
+            for (int j = i; j < i + k; j++) {
+                sum += arr[j];
+            }
+
+            if (answer < sum) {
+                answer = sum;
             }
         }
-
-        for (Integer integer : set) {
-            answer.add(integer);
-        }
-
-        Collections.sort(answer);
 
         return answer;
     }
