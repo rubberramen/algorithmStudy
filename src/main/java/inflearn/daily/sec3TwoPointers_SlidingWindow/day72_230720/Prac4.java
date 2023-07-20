@@ -33,7 +33,7 @@ public class Prac4 {
         for (int rt = 0; rt < n; rt++) {
             sum += arr[rt];
             if (sum == m) answer++;
-            while (sum >= m) {
+            while (sum >= m) {   // 여기가 중요
                 sum -= arr[lt++];
                 if (sum == m) answer++;
             }

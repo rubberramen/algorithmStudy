@@ -1,4 +1,4 @@
-package inflearn.daily.sec3TwoPointers_SlidingWindow.day72_230720;
+package inflearn.daily.sec3TwoPointers_SlidingWindow.day73_230721;
 
 /* 5. 연속된 자연수의 합 : https://cote.inflearn.com/contest/10/problem/03-05 */
 
