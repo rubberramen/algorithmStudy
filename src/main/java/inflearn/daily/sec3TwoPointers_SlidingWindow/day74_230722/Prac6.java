@@ -1,4 +1,4 @@
-package inflearn.daily.sec3TwoPointers_SlidingWindow.day73_230721;
+package inflearn.daily.sec3TwoPointers_SlidingWindow.day74_230722;
 
 /* 6. 최대 길이 연속부분수열 : https://cote.inflearn.com/contest/10/problem/03-06 */
 
