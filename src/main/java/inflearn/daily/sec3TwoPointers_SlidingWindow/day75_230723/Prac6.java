@@ -8,15 +8,15 @@ public class Prac6 {
     public static void main(String[] args) {
         Prac6 T = new Prac6();
         Scanner kb = new Scanner(System.in);
-//        int n = kb.nextInt();
-//        int k = kb.nextInt();
-//        int[] arr = new int[n];
-//        for (int i = 0; i < n; i++) {
-//            arr[i] = kb.nextInt();
-//        }
-        int n = 14;
-        int k = 2;
-        int[] arr = {1, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1};
+        int n = kb.nextInt();
+        int k = kb.nextInt();
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = kb.nextInt();
+        }
+//        int n = 14;
+//        int k = 2;
+//        int[] arr = {1, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1};
         System.out.print(T.solution(n, k, arr));
     }
 
