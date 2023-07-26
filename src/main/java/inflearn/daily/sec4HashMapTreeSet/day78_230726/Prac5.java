@@ -27,6 +27,7 @@ public class Prac5 {
 
         TreeSet<Integer> Tset = new TreeSet<>(Collections.reverseOrder());
 
+        // 3개 뽑기 3중 for문.
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++) {
                 for (int l = j + 1; l < n; l++) {

@@ -11,13 +11,14 @@ public class Prac1 {
 //        String str = kb.next();
 
 //        String str = "(()(()))(()";
-        String str = ")()()";
+//        String str = ")()()";
+        String str = "(()))(";
 
         System.out.println(T.solution(str));
     }
 
     public String solution(String str) {
-
+        String answer="YES";
         Stack<Character> stack = new Stack<>();
 
         char[] charArray = str.toCharArray();
@@ -29,8 +30,9 @@ public class Prac1 {
                 stack.pop();
             }
         }
-
-        return stack.isEmpty() ? "YES" : "NO";
+        if(!stack.isEmpty()) return "NO";
+        return answer;
+//        return stack.isEmpty() ? "YES" : "NO";
     }
 
     // EmptyStackException : 비었는데 pop을 하려고 해서
