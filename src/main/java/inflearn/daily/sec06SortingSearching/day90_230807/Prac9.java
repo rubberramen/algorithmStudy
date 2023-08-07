@@ -9,14 +9,14 @@ public class Prac9 {
     public static void main(String[] args) {
         Prac9 T = new Prac9();
         Scanner kb = new Scanner(System.in);
-//        int n = kb.nextInt();
-//        int m = kb.nextInt();
-//        int[] arr = new int[n];
-//        for (int i = 0; i < n; i++) arr[i] = kb.nextInt();
+        int n = kb.nextInt();
+        int m = kb.nextInt();
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) arr[i] = kb.nextInt();
 
-        int n = 9;
-        int m = 3;
-        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+//        int n = 9;
+//        int m = 3;
+//        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         System.out.println(T.solution(n, m, arr));
     }
 
@@ -25,8 +25,9 @@ public class Prac9 {
         int lt = Arrays.stream(arr).max().getAsInt();  // 9
         int rt = Arrays.stream(arr).sum();             // 45
 
-//        int lt = Arrays.stream(arr).sum() / n;
-//        int rt = Arrays.stream(arr).sum() / n - 1;
+        // 얘는 왜 오답이 뜰까?
+//        int lt = Arrays.stream(arr).sum() / m;
+//        int rt = Arrays.stream(arr).sum() / (m - 1);
 
         while (lt <= rt) {
             int mid = (lt + rt) / 2;
@@ -38,6 +39,7 @@ public class Prac9 {
         return answer;
     }
 
+    // capacity DVD로 몇개가 필요한가 판단.
     public int count(int[] arr, int capacity) {
         int cnt = 1;
         int sum = 0;
