@@ -1,23 +1,23 @@
 package inflearn.daily.sec07RecursiveTreeGraphDfsBfs.day93_230810;
 
-/* 1. 재귀함수 : 자연수 N이 입력되면 재귀함수를 이용하여 1부터 N까지를 출력하는 프로그램을 작성하세요. */
+/* 2. 재귀함수를 이용한 이진수 출력 :
+10진수 N이 입력되면 2진수로 변환하여 출력하는 프로그램을 작성하세요. 단 재귀함수를 이용해서 출력해야 합니다.
+*/
 
 public class Prac2 {
     public static void main(String[] args) {
         Prac2 T = new Prac2();
-        T.solution(11);
-        //System.out.println(T.solution(3));
+        T.recursive(11);
     }
 
-    public void solution(int n){
-//        DFS(n);
+    public void recursive(int n) {
+        if (n == 0) {
+            return;
+        } else {
+//            System.out.print(n + " ");
+            System.out.print(n % 2+ " ");
+            recursive(n / 2);
+//            System.out.print(n % 2);
+        }
     }
-
-//    public void DFS(int n){
-//        if(n==0) return;
-//        else{
-//            DFS(n-1);
-//            System.out.print(n+" ");
-//        }
-//    }
 }
