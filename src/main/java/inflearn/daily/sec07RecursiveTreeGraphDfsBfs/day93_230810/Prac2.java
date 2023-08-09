@@ -1,17 +1,16 @@
-package inflearn.daily.sec07RecursiveTreeGraphDfsBfs.day92_230809;
+package inflearn.daily.sec07RecursiveTreeGraphDfsBfs.day93_230810;
 
 /* 1. 재귀함수 : 자연수 N이 입력되면 재귀함수를 이용하여 1부터 N까지를 출력하는 프로그램을 작성하세요. */
 
-public class Prac1 {
+public class Prac2 {
     public static void main(String[] args) {
-        Prac1 T = new Prac1();
-        T.solution(3);
+        Prac2 T = new Prac2();
+        T.solution(11);
         //System.out.println(T.solution(3));
     }
 
     public void solution(int n){
 //        DFS(n);
-        aaa(n);
     }
 
 //    public void DFS(int n){
@@ -21,13 +20,4 @@ public class Prac1 {
 //            System.out.print(n+" ");
 //        }
 //    }
-
-    public void aaa(int n) {
-        if (n == 0) {
-            return;
-        } else {
-            System.out.print(n + " ");
-            aaa(n - 1);
-        }
-    }
 }
