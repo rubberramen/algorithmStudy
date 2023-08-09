@@ -10,24 +10,22 @@ public class Prac1 {
     }
 
     public void solution(int n){
-//        DFS(n);
-        aaa(n);
+        recursive(n);
     }
 
-//    public void DFS(int n){
-//        if(n==0) return;
-//        else{
-//            DFS(n-1);
-//            System.out.print(n+" ");
-//        }
-//    }
 
-    public void aaa(int n) {
+    /**
+     * 재귀함수는 반복문의 한 형태라고 이해해도 될듯.
+     * -> 종료 조건을 줘야 함.
+     * 초보 때는 if-else 구조로.
+     */
+    public void recursive(int n) {
         if (n == 0) {
             return;
         } else {
+//            System.out.print(n + " ");
+            recursive(n - 1);
             System.out.print(n + " ");
-            aaa(n - 1);
         }
     }
 }
