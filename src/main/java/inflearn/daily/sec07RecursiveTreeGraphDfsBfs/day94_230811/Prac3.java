@@ -8,10 +8,14 @@ package inflearn.daily.sec07RecursiveTreeGraphDfsBfs.day94_230811;
 public class Prac3 {
     public static void main(String[] args) {
         Prac3 T = new Prac3();
-        T.recursive(5);
+        System.out.println(T.recursive(5));
     }
 
-    public void recursive(int n) {
-
+    public int recursive(int n) {
+        if (n == 0) {
+            return 1;
+        } else {
+            return n * recursive(n - 1);
+        }
     }
 }
