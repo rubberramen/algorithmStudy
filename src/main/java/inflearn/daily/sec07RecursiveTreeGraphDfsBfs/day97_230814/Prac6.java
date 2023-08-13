@@ -1,4 +1,4 @@
-package inflearn.daily.sec07RecursiveTreeGraphDfsBfs.day96_230813;
+package inflearn.daily.sec07RecursiveTreeGraphDfsBfs.day97_230814;
 
 /* 6. 부분집합 구하기(DFS) :
 자연수 N이 주어지면 1부터 N까지의 원소를 갖는 집합의 부분집합을 모두 출력하는 프로그램을 작성하세요.
