@@ -1,6 +1,6 @@
 package inflearn.daily.sec07RecursiveTreeGraphDfsBfs.day103_230821;
 
-/* 12. 경로 탐색(인접리스트) :
+/* 13. 경로 탐색(인접리스트) :
     방향그래프가 주어지면 1번 정점에서 N번 정점으로 가는 모든 경로의 가지 수를 출력하는
     프로그램을 작성하세요. 아래 그래프에서 1번 정점에서 5번 정점으로 가는 가지 수는
 */
@@ -35,6 +35,15 @@ public class Prac13 {
     }
 
     public void DFS(int v) {
-
+        if (v == n) answer++;
+        else {
+            for (int nv : graph.get(v)) {
+                if (ch[nv] == 0) {
+                    ch[nv] = 1;
+                    DFS(nv);
+                    ch[nv] = 0;
+                }
+            }
+        }
     }
 }
