@@ -30,6 +30,15 @@ public class Prac3 {
     }
 
     public void DFS(int L, int sum, int time, int[] ps, int[] pt) {
+        if (time > m) {
+            return;
+        }
 
+        if (L == n) {
+            answer = Math.max(answer, sum);
+        } else {
+            DFS(L + 1, sum + ps[L], time + ps[L], ps, pt);
+            DFS(L + 1, sum, time, ps, pt );
+        }
     }
 }
