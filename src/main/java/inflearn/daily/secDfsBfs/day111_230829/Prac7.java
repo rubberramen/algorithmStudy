@@ -18,6 +18,8 @@ public class Prac7 {
     }
 
     public int DFS(int n, int r) {
-        return 1;
+        if (dy[n][r] > 0) return dy[n][r];
+        if (n == r || r == 0) return 1;
+        else return dy[n][r] = DFS(n - 1, r - 1) + DFS(n - 1, r);
     }
 }
